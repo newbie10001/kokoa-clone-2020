@@ -1,0 +1,19 @@
+.finds-icons {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+.finds-icons    {
+    display: flex;
+
+
+}
+
+.find-icons--id    {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 15px;
+}
