@@ -16,6 +16,7 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badges.css";
+@import "components/icon-raw.css";
 
 body  {
   font-family: 'Open Sans', sans-serif;
