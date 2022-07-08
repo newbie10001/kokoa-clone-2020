@@ -1,0 +1,14 @@
+.settings__setting   {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(0,0,0,0.1);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(0,0,0,0.6);
+}
+
+.settings__setting  i{
+    
+    margin-right: 20px;
+    font-size: 22px;
+}
