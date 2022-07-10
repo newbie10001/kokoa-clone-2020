@@ -159,7 +159,7 @@
 	border: var(--main-border);
 	border-radius: 20px;
 	box-sizing: border-box;
-	transition: all 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i,
@@ -216,4 +216,24 @@
 
 .reply:focus-within	{
 	transform: translateY(80px);
+}
+
+
+.message-row	img{
+	animation: profileanimation 1.5s ease-in-out infinite;
+}
+
+
+@keyframes profileanimation {
+	0%	{
+		transform: none;	
+	}
+
+	80%	{
+		transform: scale(50%) translateY(-50px);
+
+	}
+	100%	{
+		transform: none;
+	}
 }

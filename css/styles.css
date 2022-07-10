@@ -19,6 +19,7 @@
 @import "components/badges.css";
 @import "components/icon-raw.css";
 @import "components/alter-screen-header.css";
+@import "components/no-mobile.css";
 
 body  {
   font-family: 'Open Sans', sans-serif;
