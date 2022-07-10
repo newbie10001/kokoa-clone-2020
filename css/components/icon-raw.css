@@ -24,3 +24,8 @@
     
     margin: 30px ;
 }
+
+.icon-row--second_column    {
+    display: flex;
+    justify-content: flex-start;
+}
